@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 340px;
+            height: 180px;
+            margin: 15px;
+            border-radius: 10px;
+            padding: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+
+        }
+        button {
+            height: 50px;
+            border: none;
+            border-radius: 8px;
+            background-color: black;
+        }
+        a {
+            color: white;
+            font-size: 20px;
+        }
+        h1, h4{
+            margin: 5px;
+            font-family: "Quarion", sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cards">
+    <div class="card" style="background-color: #699BF7">
+        <div class="text"><h4>Tutorial video</h4>
+            <h1>Dev Mode tutorial</h1></div>
+        <button><a href="#">Watch the video</a></button>
+    </div>
+    <div class="card" style="background-color: #C7B9FF">
+        <div class="text"><h4>Blog post</h4>
+            <h1>Making Figma better <br> for developers</h1></div>
+        <button><a href="#">Go to the blog</a></button>
+    </div>
+    <div class="card" style="background-color: #FFC700">
+        <div class="text"><h4>Help center</h4>
+            <h1>Guide to Dev Mode</h1></div>
+        <button><a href="#">Read the article</a></button>
+    </div>
+    <div class="card" style="background-color: #FF8577">
+        <div class="text"><h4>Playground</h4>
+            <h1>Prototype with br variables</h1></div>
+        <button><a href="#">Go to the playground</a></button>
+    </div>
+</div>
+
+</body>
+</html>
