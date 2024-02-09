@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+/*.............................page1............................*/
+.page1 {
+    background-image: url("image 4.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1_button {
+    width: 529px;
+    height: 393px;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page1_button h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    margin-top: 53px;
+    margin-bottom: 0;
+}
+.page1_button p {
+    font-size: 25px;
+    margin: 44px 0;
+}
+.page1_button button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*............................page2...........................*/
+.page2 {
+    background: url("image 4.png"), lightgray 50% / cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    width: 949px;
+    height: 533px;
+}
+.page2 p {
+    font-size: 35px;
+    margin: 0;
+}
+.page2_text {
+    width: 949px;
+    height: 183px;
+    margin-top: 110px;
+}
+
+/*...........................page3........................*/
+.page3 {
+    background: url("image 4.png"), lightgray 50% / cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page3 div {
+    width: 454px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3 img {
+    margin: 25px 22px;
+}
+.page3 p {
+    font-size: 35px;
+    margin: 17px;
+}
+.page3 button {
+    width: 409px;
+    height: 76px;
+    font-size: 35px;
+    color: #6B6666;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
