@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.form_register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_register section {
+    margin: 15px;
+}
+/*.....................frame1.......................*/
+.frame1 {
+    width: 330px;
+    height: 390px;
+    border: 1px solid rgba(128, 128, 128, 0.46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img_insta img {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label {
+    margin: 5px;
+    display: block;
+}
+input {
+    height: 35px;
+    width: 260px;
+}
+#name{
+    text-overflow: ellipsis;
+}
+form button {
+    height: 35px;
+    width: 260px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #699BF7;
+    border-radius: 4px;
+    border: none;
+    margin: 15px;
+}
+.img_facebook img {
+    margin: -2px;
+}
+.img_facebook a {
+    text-decoration: none;
+    color: #2b2bab;
+    font-size: 18px;
+    margin-left: 8px;
+}
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #2b2bab;
+    margin-top: 10px;
+}
+
+/*..........................frame2.......................*/
+.frame2 {
+    width: 330px;
+    height: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame2 p {
+    margin: 0;
+}
+.frame2 a {
+    text-decoration: none;
+    color: #699BF7;
+    margin-left: 3px;
+}
