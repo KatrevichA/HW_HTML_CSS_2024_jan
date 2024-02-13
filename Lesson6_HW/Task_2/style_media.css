@@ -1,0 +1,35 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    .box-1 {
+        height: 15vh;
+    }
+    .box_2-6 {
+        flex-direction: column;
+    }
+    .box_2-5 {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-2 {
+        width: 100vw;
+        height: 70%;
+    }
+    .box-3 {
+        width: 33%;
+        height: 30%;
+    }
+    .box-4 {
+        width: 34%;
+        height: 30%;
+    }
+    .box-5 {
+        width: 33%;
+        height: 30%;
+    }
+    .box-6 {
+        width: 100vw;
+        height: 15vh;
+    }
+}
