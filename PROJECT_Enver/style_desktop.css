@@ -66,6 +66,7 @@ nav>button:hover {
 nav>button>span {
     color: #FFF;
     text-align: center;
+    font-family: "Lato",sans-serif;
     font-size: 16px;
     letter-spacing: -0.5px;
 }
@@ -153,7 +154,6 @@ main {
 /*.................................3section(service).............................*/
 
 .section_3 {
-    /*height: 1024px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,8 @@ main {
     color: #FFF;
     text-align: center;
     font-family: "Lato", sans-serif;
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-weight: 600;
     letter-spacing: -0.75px;
 }
 .block>p {
@@ -266,7 +267,6 @@ main {
     border: none;
     border-radius: 5px;
     background: #5454D4;
-
 }
 .footer_contact>button:hover {
     border: none;
@@ -274,6 +274,7 @@ main {
 }
 .footer_contact>button>span {
     color: #FFF;
+    font-family: "Lato",sans-serif;
     text-align: center;
     font-size: 21px;
     font-weight: 700;
@@ -284,13 +285,24 @@ main {
     justify-content: center;
     align-items: center;
 }
-.logo_footer>h2 {
+.logo_footer>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo_footer>div>h2 {
     margin: 0 0 0 8px;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 140%; /* 39.2px */
+}
+.media {
+    display: none;
+}
+.media>a {
+    display: none;
 }
 .logo_footer>div>p {
     margin: 0 0 0 783px;
